@@ -1,1 +1,65 @@
-.vercel
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment (such as venv)
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+*.log.*
+
+# Local environment variables
+.env
+
+# Python egg files
+*.egg
+*.egg-info/
+.eggs/
+
+# Test outputs
+coverage/
+*.cover
+*.coverage
+.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated documentation
+/build/
+docs/_build/
+
+# Python wheels
+*.whl
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+*.pyc
+*.pyo
+
+# Render-specific directories or caches (if applicable)
+render-build.sh
+
+# Other files
+*.sqlite3
