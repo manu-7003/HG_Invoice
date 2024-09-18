@@ -1,15 +1,11 @@
 fastapi
 uvicorn
 pytesseract
-layoutparser
-opencv-python-headless
 google-generativeai
+opencv-python-headless
 pdf2image
 numpy
 Pillow
 pandas
 openpyxl
-jinja2
 python-multipart
-xlsxwriter
-
