@@ -17,12 +17,7 @@ GOOGLE_API_KEY = 'AIzaSyCOY1MkhyEDsOYQC0LEOnQzCCQjEgJhBYI'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Configure Tesseract executable path
-import os
-
-if 'RENDER' in os.environ:
-    pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'  # Render-specific path
-else:
-    pytesseract.pytesseract.tesseract_cmd = r'/opt/homebrew/bin/tesseract'  # Local path
+#pytesseract.pytesseract.tesseract_cmd = r'/tesseract'
 
 app = FastAPI()
 
